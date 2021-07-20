@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/Netflix/go-expect"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/client"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -18,7 +18,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 	httpdownloader "github.com/linuxsuren/http-downloader/pkg"
 )
 

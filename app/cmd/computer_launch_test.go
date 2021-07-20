@@ -2,19 +2,19 @@ package cmd
 
 import (
 	"bytes"
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/util"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 )
 
 var _ = Describe("computer launch command", func() {

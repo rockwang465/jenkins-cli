@@ -3,9 +3,9 @@ package cmd
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/util"
 	jenkinsFormula "github.com/jenkins-zh/jenkins-formulas/pkg/common"
 	httpdownloader "github.com/linuxsuren/http-downloader/pkg"
 	"github.com/mitchellh/go-homedir"

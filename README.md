@@ -1,6 +1,6 @@
 # Quick start
 
-[简体中文](https://github.com/jenkins-zh/jenkins-cli/blob/master/README-zh.md)
+[简体中文](https://github.com/rockwang465/jenkins-cli/blob/master/README-zh.md)
 
 ## Jenkins CLI
 
@@ -8,10 +8,10 @@
 [![](https://sonarcloud.io/api/project_badges/measure?project=jenkins-zh_jenkins-cli&metric=alert_status)](https://sonarcloud.io/dashboard?id=jenkins-zh_jenkins-cli) 
 -->
 [![](https://goreportcard.com/badge/jenkins-zh/jenkins-cli)](https://goreportcard.com/report/jenkins-zh/jenkins-cli)
-[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/jenkins-zh/jenkins-cli)
+[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/rockwang465/jenkins-cli)
 [![codecov](https://codecov.io/gh/jenkins-zh/jenkins-cli/branch/master/graph/badge.svg?token=XS8g2CjdNL)](https://codecov.io/gh/jenkins-zh/jenkins-cli)
-[![Contributors](https://img.shields.io/github/contributors/jenkins-zh/jenkins-cli.svg)](https://github.com/jenkins-zh/jenkins-cli/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/release/jenkins-zh/jenkins-cli.svg?label=release)](https://github.com/jenkins-zh/jenkins-cli/releases/latest)
+[![Contributors](https://img.shields.io/github/contributors/jenkins-zh/jenkins-cli.svg)](https://github.com/rockwang465/jenkins-cli/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/release/jenkins-zh/jenkins-cli.svg?label=release)](https://github.com/rockwang465/jenkins-cli/releases/latest)
 ![GitHub All Releases](https://img.shields.io/github/downloads/jenkins-zh/jenkins-cli/total)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jenkinszh/jcli.svg)](https://hub.docker.com/r/jenkinszh/jcli/tags)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jenkins-zh/jenkins-cli)
@@ -58,7 +58,7 @@ For MacPorts, add `+bash_completion` or `+zsh_completion` for shell completion.
 To install `jcli` on your Linux OS, execute the following command:
 
 ```sh
-curl -L https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv
+curl -L https://github.com/rockwang465/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv
 sudo mv jcli /usr/local/bin/
 ```
 
@@ -66,7 +66,7 @@ sudo mv jcli /usr/local/bin/
 
 You can install `jcli` via [scoop](https://scoop.sh/) or [choco](https://chocolatey.org/packages/jcli/). 
 
-Or you can also find the latest version from the [release page](https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-windows-amd64.zip). 
+Or you can also find the latest version from the [release page](https://github.com/rockwang465/jenkins-cli/releases/latest/download/jcli-windows-amd64.zip). 
 Download the zip file and copy the uncompressed `jcli` directory into your system path.
 
 ### Other package managers
@@ -101,7 +101,7 @@ All official plugins could be found at [here](https://github.com/jenkins-zh/jcli
 
 ## Contribution
 
-If you're interested in this project. Please go through the [contribution guide](https://github.com/jenkins-zh/jenkins-cli/tree/cb3d358df4699db11b681eb0ab9adffbfb8a7bd4/CONTRIBUTING.md). Any contributions are welcome.
+If you're interested in this project. Please go through the [contribution guide](https://github.com/rockwang465/jenkins-cli/tree/cb3d358df4699db11b681eb0ab9adffbfb8a7bd4/CONTRIBUTING.md). Any contributions are welcome.
 
 Thanks to JetBrains for giving us the open source licence.  
 [![goland.svg](docs/book/.gitbook/assets/goland.svg)](https://www.jetbrains.com/?from=jenkins-cli)

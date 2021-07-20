@@ -5,13 +5,13 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 )
 
 var _ = Describe("credential list command", func() {

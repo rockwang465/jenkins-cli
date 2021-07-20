@@ -2,14 +2,14 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"net/http"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 	jenkinsFormula "github.com/jenkins-zh/jenkins-formulas/pkg/common"
 	"github.com/spf13/cobra"
 )

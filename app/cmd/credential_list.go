@@ -1,13 +1,13 @@
 package cmd
 
 import (
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
 	cobra_ext "github.com/linuxsuren/cobra-extension"
 	"net/http"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
 	"github.com/spf13/cobra"
 )

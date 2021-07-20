@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/google/go-github/v29/github"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
 	alias "github.com/linuxsuren/go-cli-alias/pkg"
 	"github.com/linuxsuren/go-cli-alias/pkg/cmd"
 	goPlugin "github.com/linuxsuren/go-cli-plugin/pkg"
@@ -20,14 +20,14 @@ import (
 	"strings"
 	"time"
 
-	appCfg "github.com/jenkins-zh/jenkins-cli/app/config"
-	"github.com/jenkins-zh/jenkins-cli/app/health"
+	appCfg "github.com/rockwang465/jenkins-cli/app/config"
+	"github.com/rockwang465/jenkins-cli/app/health"
 
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/util"
 	ver "github.com/linuxsuren/cobra-extension/version"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
@@ -78,7 +78,7 @@ If this is the first time you run jcli on current machine, please generate confi
 Then you can set your Jenkins config file manually via 'jcli config edit'. Or you can get the user token of Jenkins 
 automatically via 'jcli center login'.
 
-We'd love to hear your feedback at https://github.com/jenkins-zh/jenkins-cli/issues`,
+We'd love to hear your feedback at https://github.com/rockwang465/jenkins-cli/issues`,
 	PersistentPreRunE: func(cmd *cobra.Command, args []string) (err error) {
 		rootOptions.StartTime = time.Now()
 		if logger, err = util.InitLogger(rootOptions.LoggerLevel); err == nil {

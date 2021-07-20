@@ -3,7 +3,7 @@ package cmd
 import (
 	"net/http"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 	"github.com/spf13/cobra"
 )
 

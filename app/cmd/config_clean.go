@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	cfg "github.com/jenkins-zh/jenkins-cli/app/config"
-	"github.com/jenkins-zh/jenkins-cli/app/helper"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	cfg "github.com/rockwang465/jenkins-cli/app/config"
+	"github.com/rockwang465/jenkins-cli/app/helper"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/client"
 	"github.com/spf13/cobra"
 	"net"
 	"net/http"

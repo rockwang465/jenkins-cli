@@ -19,7 +19,7 @@ jobs:
         go-version: 1.15.x
     - name: Upgrade upx
       run: |
-        # try to fix https://github.com/jenkins-zh/jenkins-cli/issues/493
+        # try to fix https://github.com/rockwang465/jenkins-cli/issues/493
         wget https://github.com/upx/upx/releases/download/v3.96/upx-3.96-amd64_linux.tar.xz
         tar xvf upx-3.96-amd64_linux.tar.xz
         upx-3.96-amd64_linux/upx -V

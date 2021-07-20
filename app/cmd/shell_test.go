@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/util"
 	"io/ioutil"
 	"os"
 

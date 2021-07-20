@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
-	"github.com/jenkins-zh/jenkins-cli/app/helper"
+	"github.com/rockwang465/jenkins-cli/app/helper"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 	"github.com/spf13/cobra"
 )
 

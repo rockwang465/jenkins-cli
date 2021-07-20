@@ -3,8 +3,8 @@ package condition
 import (
 	"fmt"
 	"github.com/hashicorp/go-version"
-	appCfg "github.com/jenkins-zh/jenkins-cli/app/config"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	appCfg "github.com/rockwang465/jenkins-cli/app/config"
+	"github.com/rockwang465/jenkins-cli/client"
 	"net/http"
 )
 

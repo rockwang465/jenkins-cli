@@ -2,10 +2,10 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	appCfg "github.com/jenkins-zh/jenkins-cli/app/config"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	appCfg "github.com/rockwang465/jenkins-cli/app/config"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/util"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 	"os"

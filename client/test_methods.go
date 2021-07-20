@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 	httpdownloader "github.com/linuxsuren/http-downloader/pkg"
 )
 

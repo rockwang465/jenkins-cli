@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/client"
 	jenkinsFormula "github.com/jenkins-zh/jenkins-formulas/pkg/common"
 	cobra_ext "github.com/linuxsuren/cobra-extension"
 	"github.com/spf13/cobra"

@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
 	"github.com/spf13/cobra"
 )

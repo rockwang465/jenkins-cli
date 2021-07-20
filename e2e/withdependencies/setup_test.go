@@ -2,7 +2,7 @@ package withdependencies
 
 import (
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/e2e"
+	"github.com/rockwang465/jenkins-cli/e2e"
 	"github.com/phayes/freeport"
 	"io"
 	"os"

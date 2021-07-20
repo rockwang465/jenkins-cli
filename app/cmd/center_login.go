@@ -3,10 +3,10 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/condition"
-	"github.com/jenkins-zh/jenkins-cli/client"
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/cmd/condition"
+	"github.com/rockwang465/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/util"
 	httpdownloader "github.com/linuxsuren/http-downloader/pkg"
 	"io/ioutil"
 	"net"
@@ -14,7 +14,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
 	"github.com/spf13/cobra"
 )

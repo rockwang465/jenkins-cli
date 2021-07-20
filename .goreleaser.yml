@@ -53,7 +53,7 @@ brews:
       owner: jenkins-zh
       name: homebrew-jcli
     folder: Formula
-    homepage: "https://github.com/jenkins-zh/jenkins-cli"
+    homepage: "https://github.com/rockwang465/jenkins-cli"
     description: Jenkins CLI allows you manage your Jenkins as an easy way
     dependencies:
       - name: vim
@@ -81,7 +81,7 @@ brews:
       prefix.install_metafiles
 nfpms:
   - file_name_template: "{{ .Binary }}-{{.Os}}-{{.Arch}}"
-    homepage: https://github.com/jenkins-zh/jenkins-cli
+    homepage: https://github.com/rockwang465/jenkins-cli
     description: Jenkins CLI allows you manage your Jenkins as an easy way
     maintainer: rick <rick@jenkins-zh.cn>
     license: MIT

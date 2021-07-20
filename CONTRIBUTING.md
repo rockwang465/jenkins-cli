@@ -62,7 +62,7 @@ encouraged when submitting pull requests.
 
 Please **do not** create another Pull Request if you messed up your git commit records.
 
-In order to generate nice [release notes](https://github.com/jenkins-zh/jenkins-cli/releases),
+In order to generate nice [release notes](https://github.com/rockwang465/jenkins-cli/releases),
 please consider writing a proper Pull Request title.
 [release-draft](https://github.com/toolmantim/release-drafter) will generate the notes base your title.
 
@@ -83,7 +83,7 @@ Quality is the heart of a project. So please make sure your Pull Request could p
 
 ## Good Start
 
-The [newbie](https://github.com/jenkins-zh/jenkins-cli/issues?q=is%3Aissue+is%3Aopen+label%3Anewbie) issues
+The [newbie](https://github.com/rockwang465/jenkins-cli/issues?q=is%3Aissue+is%3Aopen+label%3Anewbie) issues
 are the good start.
 
 ## Git Backup

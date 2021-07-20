@@ -10,8 +10,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/spf13/cobra"
 
-	"github.com/jenkins-zh/jenkins-cli/client"
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 )
 
 var _ = Describe("user token command", func() {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jenkins-zh/jenkins-cli/app/cmd"
+	"github.com/rockwang465/jenkins-cli/app/cmd"
 )
 
 func main() {

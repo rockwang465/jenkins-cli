@@ -1,4 +1,4 @@
-module github.com/jenkins-zh/jenkins-cli
+module github.com/rockwang465/jenkins-cli
 
 go 1.14
 

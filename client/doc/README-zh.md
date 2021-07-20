@@ -4,7 +4,7 @@
 
 go.mod
 ```
-require github.com/jenkins-zh/jenkins-cli
+require github.com/rockwang465/jenkins-cli
 ```
 
 ## 配置

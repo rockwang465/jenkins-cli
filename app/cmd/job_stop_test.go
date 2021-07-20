@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/golang/mock/gomock"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"io/ioutil"
 	"net/http"
 	"os"
 
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 )
 
 var _ = Describe("job stop command", func() {

@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	appCfg "github.com/jenkins-zh/jenkins-cli/app/config"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	appCfg "github.com/rockwang465/jenkins-cli/app/config"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
 	"github.com/spf13/cobra"
 )

@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/jenkins-zh/jenkins-cli/app/cmd/common"
-	"github.com/jenkins-zh/jenkins-cli/app/i18n"
+	"github.com/rockwang465/jenkins-cli/app/cmd/common"
+	"github.com/rockwang465/jenkins-cli/app/i18n"
 
 	"github.com/spf13/cobra"
 )
@@ -66,5 +66,5 @@ var configDataCmd = &cobra.Command{
 	Annotations: map[string]string{
 		common.Since: "v0.0.31",
 	},
-	Example: "jcli config data local -k jcli -v https://github.com/jenkins-zh/jenkins-cli",
+	Example: "jcli config data local -k jcli -v https://github.com/rockwang465/jenkins-cli",
 }

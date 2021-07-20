@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jenkins-zh/jenkins-cli/util"
+	"github.com/rockwang465/jenkins-cli/util"
 	ext "github.com/linuxsuren/cobra-extension/version"
 	httpdownloader "github.com/linuxsuren/http-downloader/pkg"
 )

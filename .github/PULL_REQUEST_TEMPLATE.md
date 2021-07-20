@@ -3,7 +3,7 @@
 ### Always
 
 - [ ] Make sure you are requesting to **pull a topic/feature/bugfix branch** (right side) and not your master branch!
-- [ ] Written well with PR title, we generate the [release notes](https://github.com/jenkins-zh/jenkins-cli/releases) base on that
+- [ ] Written well with PR title, we generate the [release notes](https://github.com/rockwang465/jenkins-cli/releases) base on that
 
 ### For the bug fixes or features only
 

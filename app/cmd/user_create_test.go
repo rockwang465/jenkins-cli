@@ -2,12 +2,12 @@ package cmd
 
 import (
 	"bytes"
-	"github.com/jenkins-zh/jenkins-cli/client"
+	"github.com/rockwang465/jenkins-cli/client"
 	"io/ioutil"
 	"os"
 
 	"github.com/golang/mock/gomock"
-	"github.com/jenkins-zh/jenkins-cli/mock/mhttp"
+	"github.com/rockwang465/jenkins-cli/mock/mhttp"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

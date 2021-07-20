@@ -1,6 +1,6 @@
 # 快速开始
 
-[English](https://github.com/jenkins-zh/jenkins-cli/blob/master/README.md)
+[English](https://github.com/rockwang465/jenkins-cli/blob/master/README.md)
 
 ## Jenkins CLI
 
@@ -8,10 +8,10 @@
 [![](https://sonarcloud.io/api/project_badges/measure?project=jenkins-zh_jenkins-cli&metric=alert_status)](https://sonarcloud.io/dashboard?id=jenkins-zh_jenkins-cli) 
 -->
 [![](https://goreportcard.com/badge/jenkins-zh/jenkins-cli)](https://goreportcard.com/report/jenkins-zh/jenkins-cli)
-[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/jenkins-zh/jenkins-cli)
+[![](http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/rockwang465/jenkins-cli)
 [![codecov](https://codecov.io/gh/jenkins-zh/jenkins-cli/branch/master/graph/badge.svg?token=XS8g2CjdNL)](https://codecov.io/gh/jenkins-zh/jenkins-cli)
-[![Contributors](https://img.shields.io/github/contributors/jenkins-zh/jenkins-cli.svg)](https://github.com/jenkins-zh/jenkins-cli/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/release/jenkins-zh/jenkins-cli.svg?label=release)](https://github.com/jenkins-zh/jenkins-cli/releases/latest)
+[![Contributors](https://img.shields.io/github/contributors/jenkins-zh/jenkins-cli.svg)](https://github.com/rockwang465/jenkins-cli/graphs/contributors)
+[![GitHub release](https://img.shields.io/github/release/jenkins-zh/jenkins-cli.svg?label=release)](https://github.com/rockwang465/jenkins-cli/releases/latest)
 ![GitHub All Releases](https://img.shields.io/github/downloads/jenkins-zh/jenkins-cli/total)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jenkinszh/jcli.svg)](https://hub.docker.com/r/jenkinszh/jcli/tags)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jenkins-zh/jenkins-cli)
@@ -47,13 +47,13 @@ brew install jcli
 要在 Linux 操作系统上安装 `jcli` 的话，非常简单。只需要执行下面的命令即可：
 
 ```text
-curl -L https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv
+curl -L https://github.com/rockwang465/jenkins-cli/releases/latest/download/jcli-linux-amd64.tar.gz|tar xzv
 sudo mv jcli /usr/local/bin/
 ```
 
 ### Windows
 
-你只要[点击这里](https://github.com/jenkins-zh/jenkins-cli/releases/latest/download/jcli-windows-amd64.zip)就可以下载到最新版本的压缩包。之后，把解压后的文件 `jcli` 拷贝到你的系统目录下即可。
+你只要[点击这里](https://github.com/rockwang465/jenkins-cli/releases/latest/download/jcli-windows-amd64.zip)就可以下载到最新版本的压缩包。之后，把解压后的文件 `jcli` 拷贝到你的系统目录下即可。
 
 ### 其他包管理器
 
@@ -61,7 +61,7 @@ sudo mv jcli /usr/local/bin/
 
 * [Scoop](https://scoop.sh/) 的用户可以使用命令 `scoop install jcli` 来安装
 
-了解更多[如何下载 jcli](https://github.com/jenkins-zh/jenkins-cli/tree/e83af606f648040665b8b2955c1c2414bb68c1db/docs/book/zh/download-zh.md). 你可以从[这里](https://tooomm.github.io/github-release-stats/?username=jenkins-zh&repository=jenkins-cli)获取下载的统计信息。
+了解更多[如何下载 jcli](https://github.com/rockwang465/jenkins-cli/tree/e83af606f648040665b8b2955c1c2414bb68c1db/docs/book/zh/download-zh.md). 你可以从[这里](https://tooomm.github.io/github-release-stats/?username=jenkins-zh&repository=jenkins-cli)获取下载的统计信息。
 
 ## 入门
 
@@ -82,7 +82,7 @@ jcli config plugin install account
 
 ## 贡献
 
-如果你对该项目感兴趣，请首先仔细阅读我们的[贡献指南](https://github.com/jenkins-zh/jenkins-cli/tree/e83af606f648040665b8b2955c1c2414bb68c1db/CONTRIBUTING.md)。我们欢迎任何形式的贡献。
+如果你对该项目感兴趣，请首先仔细阅读我们的[贡献指南](https://github.com/rockwang465/jenkins-cli/tree/e83af606f648040665b8b2955c1c2414bb68c1db/CONTRIBUTING.md)。我们欢迎任何形式的贡献。
 
 感谢 JetBrains 为我们提供了开源许可证。  
 [![goland.svg](docs/book/.gitbook/assets/goland.svg)](https://www.jetbrains.com/?from=jenkins-cli)
